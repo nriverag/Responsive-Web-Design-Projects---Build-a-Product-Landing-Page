@@ -1,0 +1,133 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Responsive Web Design Projects - Build a Product Landing Page: Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <link rel="stylesheet" href="styles.css">
+        <img
+          id="header-img"
+          src="https://png.pngtree.com/png-clipart/20200709/original/pngtree-business-consulting-logo-icon-design-template-vector-png-image_3655047.jpg"
+          alt="Consulting-company-logo"
+        />
+      </div>
+  
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">About us</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <div class="container"></div>
+  
+    <section id="hero">
+      <h2>The best Consulting Company</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+  
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Mauris dapibus leo</h2>
+            <p>
+              Mauris dapibus leo vel sapien auctor, sit amet ultricies lectus accumsan.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="desc">
+            <h2>Quisque ut elit </h2>
+            <p>
+              Quisque ut elit eleifend nisi cursus condimentum sit amet eu sem. 
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Ut aliquet lacus sit ame</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube.com/embed/3wPeND2gvqc"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="tenor">
+          <div class="level">Business analytics</div>
+          <h2>$3000</h2>
+          <ol>
+            <li>Supports human decisions with visual analytics that the user models to reflect reasoning</li>
+            <li>Gains insight from historical data with reporting, scorecards, clustering</li>
+            <li>Employs predictive modelling using statistical and machine learning techniques</li>
+            <li>Recommends decisions using optimization, simulation</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="bass">
+          <div class="level">Finance</div>
+          <h2>$2000</h2>
+          <ol>
+            <li>Source(s) of that entity's revenue</li>
+            <li>Lorem ipsum.</li>
+            <li>The budgeting process</li>
+            <li>Debt issuance (municipal bonds) for public works projects</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="valve">
+          <div class="level">Human resources</div>
+          <h2>$1000</h2>
+          <ol>
+            <li>Determine needs of the staff.</li>
+            <li>Determine to use temporary staff or hire employees to fill these needs.</li>
+            <li>Determine Do's & Dont's</li>
+            <li>Recruit the best employees</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, The Best Consulting Company</span>
+      </footer>
+    </div>
+  </div>
+</html>
